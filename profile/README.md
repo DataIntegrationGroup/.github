@@ -3,7 +3,7 @@
 ## python
 1. all python projects shall use the [psf "black" code formatter](https://github.com/psf/black) or the [ruff linter](https://docs.astral.sh/ruff/). It is recommended to use a github action for formatting and that a badge be added to the projects README file
 2. all python projects shall have unittests that execute automatically on pushes/pull requests
-3. all python projects shall follow this [style guide](python_style_guide)
+3. all python projects shall follow this [style guide](python_style_guide.md)
 4. follow the [Zen of Python](https://en.wikipedia.org/wiki/Zen_of_Python)
 
 ## web development
