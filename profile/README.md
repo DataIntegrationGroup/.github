@@ -5,6 +5,8 @@
 2. all python projects shall have unittests that execute automatically on pushes/pull requests
 3. all python projects shall follow this [style guide](python_style_guide.md)
 4. follow the [Zen of Python](https://en.wikipedia.org/wiki/Zen_of_Python)
+## api
+1. all endpoints shall use `kebab-case`
 
 ## web development
 1. web applications shall be built using React
