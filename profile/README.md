@@ -29,8 +29,8 @@
 ## Git & Collaboration
 - Git commits shall follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) standards.
 - All default branches shall be named `main`.
-- All base development branches shall be named `pre-production`.
-    - All users shall base their development branches off of `pre-production`.
-    - When ready, a pull request shall be opened from a user's development branch into `pre-production`. After mergeing with `pre-production`, all project participants shall pull the latest `pre-production` updates to their local environments, merge those changes to their development branches, and resolve merge conflicts.
-- All tests must pass before a development branch can be merged with `pre-production`.
-- All merge conflicts must be resolved before a development branch can be merged with `pre-production`.
+- All base staging branches shall be named `staging`.
+    - All users shall base their development branches off of `staging`.
+    - When ready, a pull request shall be opened from a user's development branch into `staging`. After mergeing with `staging`, all project participants shall pull the latest `staging` updates to their local environments, merge those changes to their development branches, and resolve merge conflicts.
+- All tests must pass before a development branch can be merged with `staging`.
+- All merge conflicts must be resolved before a development branch can be merged with `staging`.
