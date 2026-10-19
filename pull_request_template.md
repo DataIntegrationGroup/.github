@@ -15,7 +15,7 @@ _Implementation summary: the following was changed / added / removed:_
 - [ ] Changes are limited to the intended scope.
 - [ ] Tests were added or updated where appropriate.
 - [ ] Relevant tests and lint checks pass.
-- [ ] No secrets, credentials, or sensitive data were introduced.
+- [ ] No secrets, credentials, or sensitive data were publicly exposed. 
 - [ ] Documentation was updated where necessary.
 
 ### **Reviewer Checklist**
